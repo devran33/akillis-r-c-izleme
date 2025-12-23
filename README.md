@@ -29,26 +29,20 @@ Flask
 ReportLab (PDF için)
 
 
-## 🚀 Kurulum
+## 🚀 Kurulumu
 
-1. *Projeyi klonlayın:*
-bash
-git clone https://github.com/kullaniciadi/akilli-surucu-izleme.git
-cd akilli-surucu-izleme
-
-
-2. *Sanal ortam oluşturun:*
+1. *Sanal ortam oluşturun:*
 bash
 conda create -n gorsel python=3.10
 conda activate gorsel
 
 
-3. *Gerekli paketleri yükleyin:*
+2. *Gerekli paketleri yükleyin:*
 bash
 pip install opencv-python mediapipe numpy flask reportlab pillow
 
 
-4. *Projeyi başlatın:*
+3. *Projeyi başlatın:*
 bash
 # Web arayüzü için
 jupyter notebook web_app.ipynb
